@@ -1,0 +1,92 @@
+  html{
+        height: 100%;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+    } 
+
+
+
+
+body{
+    /* height: 100%; */
+    display: flex; 
+    justify-content: center;
+     /* align-items: center;  */
+    background-image: linear-gradient(#8C4EB7,#DD73BE);
+}
+#todo-item{
+    border-radius: 5px;
+    border-width: 5x;
+    border-style: dotted;
+    padding: 10px;
+}
+h1{
+    color: plum;
+    font-size: 80px;
+    font-family: Georgia;
+}
+span{
+    color: #fff;
+}
+.btn{
+
+    background-color: #E39BCE;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 9px;
+    font-weight: bold;
+     margin-right: 20px;
+    margin-left: 20px; 
+    float: right;
+    display: block;
+}
+hr{
+    border-color: purple;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: double;
+}
+#btn1{
+    background-color:#E39BCE ;
+    color: aliceblue;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  
+
+
+
+}
+#btn1:hover{
+    /* background-color: blueviolet; */
+    background-color: #E165BD;
+}
+.btn:hover{
+    background-color: #E165BD;
+color: #fff;
+}
+#list{
+    color: #fff;
+     display: block; 
+   
+}
+
+/* button {
+    float: right;
+    display: block !important;
+} */
+
+ul#list li {
+    display:block;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+    line-height: 38px;
+}
+
+
+@media only screen and (max-width: 480px){
+    ul#list li button{
+        display: block;
+    }
+}
